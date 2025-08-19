@@ -1,0 +1,57 @@
+/* Шрифты:
+  Inter - для всего текста;
+  Noto - тоолько для заголовков
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 
+  Пояснения: 
+  fs - font-size
+  h - заголовок
+  bg - фон
+  btn - кнопка
+*/
+:root{
+  --base-font-size: 16px;
+  --color-text: #fff;
+   --color-show-text: #ffffff79;/* Примерный цвет. Если что поправте  */
+  --color-show: #ffffff79; /* Примерный цвет. Если что поправте */
+  --big-banner-fs: 56px;
+  --color-red: #EC1C24; /* Для выделенных блоков текста */
+  --color-border: linear-gradient(90deg, #E52D27 0%, #B31217 100%);
+  --color-bg-btn: linear-gradient(90deg, #E52D27 0%, #B31217 100%);
+  --title-banner-fs: 38px;
+  --h-fs: 42px;
+  --bg-color: #000;
+  --bg-color-header: #232122;
+
+}
+
+.main{
+  font-size: var(--base-font-size);
+  color: var(--color-text);
+  background: var(--bg-color);
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.max-container{
+  max-width: 1450px;
+  margin: 0 auto;
+  
+}
+
+.button{
+  
+}
+
+a{
+  text-decoration: none;
+  color: var(--color-text);
+}
+ul,li{
+  text-decoration: none;
+  list-style: none;
+}

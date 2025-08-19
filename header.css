@@ -1,0 +1,59 @@
+@import url(base.css);
+
+.header{
+    
+    background: var(--bg-color-header);
+    
+
+}
+
+.header__logo{
+    padding-left: 24px;
+}
+
+.header__logo-img{
+
+}
+
+.header__search{
+    padding-left: 34px;
+}
+
+.header__search-input{
+
+}
+
+.header__nav{
+    align-items: center;
+    display: flex;
+    padding-left: 65px;
+}
+
+.header__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 26px 100px;
+}
+
+.header__nav-item{
+    margin-left: 40px;
+}
+
+.header__nav-link{
+
+}
+
+.button__auth{
+    padding-left: 15px;
+}
+
+.lang__wrapper{
+display: flex;
+align-items: center;
+}
+
+.lang__wrapper img{
+    padding-left: 3px;
+}
